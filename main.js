@@ -35,3 +35,14 @@ sub2 = tripleSubRev(2, 1, 10);
 
 sub1;
 sub2;
+
+function tripString(str) {
+	return str + str + str;
+}
+
+trip1 = tripString("codeimmersives");
+trip2 = tripString("is the best");
+
+trip1;
+trip2;
+
