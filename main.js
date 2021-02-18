@@ -4,14 +4,23 @@ function superQuestion(str) {
 let quest1 = superQuestion("hello");
 let quest2 = superQuestion("sup, dude");
 
-quest1
-quest2
+quest1;
+quest2;
 
-function catStrings(str1, str2){
-    return str1 + ' ' + str2
+function catStrings(str1, str2) {
+	return str1 + " " + str2;
 }
-cat1 = catStrings("Hi","dude!")
-cat2 = catStrings("happy happy", "joy joy")
+cat1 = catStrings("Hi", "dude!");
+cat2 = catStrings("happy happy", "joy joy");
 
-cat1
-cat2
+cat1;
+cat2;
+
+function tripleSubRev(num1, num2, num3) {
+	return num3 - num2 - num1;
+}
+sub1 = tripleSubRev(10, 1, 2);
+sub2 = tripleSubRev(2, 1, 10);
+
+sub1;
+sub2;
