@@ -46,15 +46,14 @@ trip2 = tripString("is the best");
 trip1;
 trip2;
 
-
-function squareRoot(num){
-    return Math.sqrt(num)
+function squareRoot(num) {
+	return Math.sqrt(num);
 }
 
-root1 = squareRoot(16)
-root2 = squareRoot(4)
-root3 = squareRoot(9)
+root1 = squareRoot(16);
+root2 = squareRoot(4);
+root3 = squareRoot(9);
 
-root1
-root2
-root3
+root1;
+root2;
+root3;
